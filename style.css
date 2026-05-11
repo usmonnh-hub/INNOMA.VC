@@ -299,7 +299,6 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
   display: block;
   border-radius: 7px;
   margin-top: 50px;
-  margin-bottom: 100px;
 }
 .section7{
   background-image: url(imges/section7_img.png);
@@ -309,6 +308,7 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
   height: 700px;
   padding: 1px;
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 .sec7-container{
   width: 80%;
@@ -326,11 +326,40 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
   display: flex;
   flex-wrap: wrap;
 }
+.section9{
+  width: 80%;
+  margin: auto;
+}
+.sec9-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.sec9-s1{
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgb(154, 154, 154);
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
 
 
 
 
 @media (max-width: 640px) {
+  .sec9-s1 button{
+    width: 250px;
+  }
+  .sec9-s1{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .sec9-container{
+    width: 100%;
+    flex-direction: column;
+  }
   .section8{
     margin-top: 150px;
   }
