@@ -368,6 +368,7 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
 .section11{
   width: 80%;
   margin: auto;
+  margin-bottom: 100px;
 }
 .sec11-container{
   display: flex;
@@ -379,11 +380,31 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
   width: 25%;
   text-align: center;
 }
+.section12{
+  width: 80%;
+  margin: auto;
+}
+.sec12-container{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
 
 
 
 
 @media (max-width: 640px) {
+  .c{
+    width: 200px;
+  }
+  .sec12-container{
+    width: 100%;
+  }
+  .section12{
+    width: 100%;
+  }
   .q{
     width: 170px;
   }
