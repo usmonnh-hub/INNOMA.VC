@@ -300,11 +300,41 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
   margin-top: 50px;
   margin-bottom: 100px;
 }
+.section7{
+  background-image: url(imges/section7_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding: 1px;
+}
+.sec7-container{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 300px;
+}
+.sec7-text{
+  margin-top: 100px;
+  color: #fff;
+}
+.sec7-imges{
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 
 
 @media (max-width: 640px) {
+  .section7{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+  }
   .sec6-button{
     margin-left: 25px;
     width: 300px;
