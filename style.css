@@ -137,6 +137,7 @@
   background-size: cover;
   background-position: center;
   height: 500px;
+  margin-bottom: 100px;
 }
 .sec3_h1{
   font-size: 40px;
@@ -170,11 +171,98 @@
 .sec3_button:hover{
   background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
 }
+.section4-buttons{
+   width: 75%;
+   margin-left: 160px;
+   display: flex;
+   justify-content: space-between;
+  }
+  .sec4-button1{
+    background-color: #eef1f4;
+    width: 25%;
+  color: #000;
+  padding: 10px 1px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-left: 1px solid #CFDDEB;
+  border-right: 1px solid #CFDDEB;
+  border-radius: 7px;
+}
+.sec4-button1:active{
+  background-color: #88BBD8;
+  color: #000;
+  font-weight: 600;
+}
+.section4-container{
+  background-image: url(imges/section4-img.png);
+  background-repeat: no-repeat;
+  width: 60%;
+  margin-left: 160px;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec4-button{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 7px;
+  background: linear-gradient(to right, #61B5E4, #016CA8);
+  margin-bottom: 20px;
+}
+.sec4-button:hover{
+cursor: pointer;
+background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
+}
+.sec4-blocks{
+  width:  500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.f1{
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(186, 186, 186);
+  height: 100px;
+  background-color: #fff;
+}
+.sd{
+  color: #1178B2; margin-left: 160px; margin-bottom: 30px;
+}
 
 
 
 
 @media (max-width: 640px) {
+  .f1{
+    width: 160px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .sec4-blocks{
+    width: 100%;
+  }
+  .sd{
+    margin-left: 100px;
+  }
+  .section4-buttons{
+    width: 100%;
+    margin-left: 0;
+  }
+  .section4-container{
+    width: 100%;
+    margin-left: 0;
+   flex-direction: column;
+  }
   .sec3_button{
     font-size: 11px;
     width: 200px;
