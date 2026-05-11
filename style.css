@@ -9,6 +9,7 @@
   background-position: center;
   height: 670px;
   color: #fff;
+  margin-bottom: 100px;
 }
 .header_content{
   width: 70%;
@@ -59,11 +60,68 @@
 .header_menu{
   display: none;
 }
+.section1_container{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 100px;
+  align-items: center;
+}
+.cnt1_text{
+  width: 50%;
+  font-size: 18px;
+  
+}
+.kj{
+  color: #1178B2; margin-bottom: 50px; margin-left: 150px;
+}
+.sec1_container{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
 
 @media (max-width: 640px) {
+  .cnt2_text{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  .sec1_container{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+        
+  }
+  .section1 .header_button{
+    padding: 1px 110px;
+    margin-top: 30px;
+    font-size: 17px;
+    height: 60px;
+  }
+  .kj{
+    margin-left: 0;
+    text-align: center;
+    margin-top: -40px;
+  }
+  .cnt1_text{
+    width: 90%;
+    font-size: 22px;
+    margin: auto;   
+  }
+  .section1_container img{
+    width: 400px;
+    margin-bottom: 50px;
+  }
+  .section1_container{
+    width: 100%;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
   .cnt-button{
     font-size: 15px;
   }
