@@ -1,6 +1,13 @@
 *{
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  html{
+  scroll-behavior: smooth;
+}
+.header_link{
+  text-decoration: none;
+  color: #fff;
 }
 .header{
   background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.692) ),url(imges/header_img.png);
@@ -41,7 +48,7 @@
   margin-top: 120px;
 }
 .cnt-h1{
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 25px;
 }
 .cnt-p{
@@ -57,6 +64,9 @@
   border-radius: 10px;
   background: linear-gradient(to right, #61B5E4, #016CA8);
 }
+.cnt-button:hover{
+  background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
+}
 .header_menu{
   display: none;
 }
@@ -69,7 +79,7 @@
 }
 .cnt1_text{
   width: 50%;
-  font-size: 18px;
+  font-size: 20px;
   
 }
 .kj{
@@ -80,6 +90,42 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 150px;
+}
+.cnt2_text{
+  font-size: 20px;
+}
+.section2_container{
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sec2_cnt_block1{
+  width: 30%;
+  padding: 1px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(178, 178, 178);
+  margin-bottom: 100px;
+}
+.sec2_cnt_block1:hover{
+  cursor: pointer;
+  box-shadow: -5px 20px 35px rgb(99, 99, 99);
+}
+.sec2_cnt_block1:active{
+  cursor: pointer;
+  box-shadow: 0px 5px 20px rgb(99, 99, 99);
+}
+.sec2_h1{
+  color: #1177b2b1;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 
@@ -87,9 +133,10 @@
 
 @media (max-width: 640px) {
   .cnt2_text{
-    width: 100%;
-    font-size: 25px;
+    width: 80%;
+    font-size: 20px;
     margin-top: 50px;
+    margin: auto;
   }
   .sec1_container{
     width: 100%;
@@ -110,7 +157,7 @@
   }
   .cnt1_text{
     width: 90%;
-    font-size: 22px;
+    font-size: 20px;
     margin: auto;   
   }
   .section1_container img{
