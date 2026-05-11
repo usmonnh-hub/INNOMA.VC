@@ -390,12 +390,36 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
   width: 80%;
   margin: auto;
   flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.section13{
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.692) ),url(imges/sec13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-bottom: 100px;
+}
+.sec13_h1{
+  font-size: 40px;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  border-radius: 5px;
 }
 
 
 
 
 @media (max-width: 640px) {
+  .sec13_h1{
+    width: 80%;
+    font-size: 30px;
+    margin-top: 20px;
+  }
   .c{
     width: 200px;
   }
