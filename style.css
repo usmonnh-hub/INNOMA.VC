@@ -410,11 +410,39 @@ background: linear-gradient(to right, #61b4e4d5, #016ba8cd);
   margin-bottom: 25px;
   border-radius: 5px;
 }
+.section14{
+  width: 80%;
+  margin: auto;
+}
+.sec14-container{
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  box-shadow: 0px 0px 20px rgb(142, 142, 142);
+}
+.sec14-cnt{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
 
 
 
 
 @media (max-width: 640px) {
+  .sec14-container{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .sec14-cnt{
+    width: 100%;
+    flex-direction: column;
+  }
+  .section14{
+    width: 100%;
+  }
   .sec13_h1{
     width: 80%;
     font-size: 30px;
